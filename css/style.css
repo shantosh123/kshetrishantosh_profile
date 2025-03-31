@@ -455,41 +455,4 @@ form textarea {
  
 
 
-/* mobole version comming soon */
-.coming-soon {
-  text-align: center;
-  font-size: 24px;
-  margin-top: 50px;
-  display: none; /* Initially hide the message */
-}
-.coming-soon-img {
-  text-align: center;
-  
-  margin-top: 50px;
-  display: none; /* Initially hide the message */
-}
-@media (max-width: 767px) {
-  /* Styles for mobile devices */
-  .coming-soon {
-      display: block;
-      color: red;
-       /* Display the message on mobile devices */
-  }
-  .coming-soon-img{
-    text-align: center;
-        margin-top: 50px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        margin-right: 20px;
-        display: block;
-  }
-  .coming-soon-img img {
-    max-width: 100%;
-    height: auto;
-}
-
-  .home, .about, .skills, .experience, .projects, .contact {display: none;}
-
-
-}
 
