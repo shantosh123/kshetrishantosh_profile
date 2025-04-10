@@ -196,7 +196,7 @@ section.home {
 
 
 /* Responsive Tweaks */
-@media (max-width: 767.98px) {
+@media (max-width: 991px) {
   .home-text h1 {
       font-size: 2rem;
   }
@@ -484,6 +484,48 @@ form textarea {
  
   
 }
+
+@media (max-width: 768px) {
+  .contact-form form {
+    width: 90%; /
+  }
+
+  .send-button {
+    margin-left: 0; 
+    align-self: center;
+  }
+
+  .backtotop {
+    text-align: center; 
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading h2 {
+    font-size: 24px;
+  }
+
+  .heading span {
+    font-size: 14px;
+  }
+
+  form textarea {
+    height: 150px;
+  }
+
+  .send-button {
+    width: 100%; /* Full width button for mobile */
+  }
+}
+
+
+
+
+
+
+/* footer section Start */
+
 .footer {
   display: grid;
   place-items: center;
